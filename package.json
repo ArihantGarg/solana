@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ArihantGarg/solana#readme",
   "dependencies": {
-    "cowsay": "^1.5.0"
+    "cowsay": "^1.5.0",
+    "one-liner": "^1.3.0",
+    "one-liner-joke": "^1.2.2"
   }
 }
