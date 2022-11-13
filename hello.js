@@ -30,13 +30,21 @@ catch(exceptionVar)
     console.log("error")
 }
 
+//
+
+
+const onelinerjoke = require("one-liner-joke")
+
 const cow=require("cowsay")
+
+const joke=onelinerjoke.getRandomJoke();
 
 
 console.log(
     cow.say({
-        text: "Ayush is doing a workshop",
+        text: joke.body,
         e: "vv",
         T: "U"
     })
 )
+
